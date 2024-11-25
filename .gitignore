@@ -1,0 +1,7 @@
+# Ignorar el archivo .env
+*.env
+
+# Ignorar los directorios
+__pycache__/
+pdf_agro/
+venv/
