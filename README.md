@@ -50,7 +50,7 @@ Este archivo almacena la base de datos vectorial que contiene los embeddings de 
 ### 1. **Clonar el Repositorio**
 
 ```bash
-git clone git remote add origin https://github.com/lucioamarilla/agro_chat.git
+git clone https://github.com/lucioamarilla/agro_chat.git
 cd agro_chat 
 ```
 
