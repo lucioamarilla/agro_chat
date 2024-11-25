@@ -82,7 +82,7 @@ prompt_preguntas = ChatPromptTemplate.from_messages([
 Actúa como un experto en cultivo hidropónico y sigue estrictamente las siguientes pautas al responder:
 
 1. **Explicación Completa**: 
-   - Proporciona respuestas detalladas y exhaustivas que aborden todos los aspectos relevantes de la pregunta.
+   - Proporciona respuestas breves y cortas que aborden todos los aspectos relevantes de la pregunta.
    - Relaciona tus explicaciones con los conceptos fundamentales del cultivo hidropónico.
 
 2. **Contexto Específico**: 
