@@ -40,8 +40,8 @@ Este archivo almacena la base de datos vectorial que contiene los embeddings de 
 
 - **Python 3.8 o superior.**
 - Claves API necesarias:
-  - **ThingSpeak API Key** para obtener datos del sistema de cultivo.
-  - Opcional: Otras claves API si integras servicios adicionales como información meteorológica.
+  - **Groq API Key** para poder utilizar el modelo de LLM.
+  - **OpenWeatherMap API Key** para poder utilizar la informacion meteorologica.
 
 ---
 
@@ -50,7 +50,7 @@ Este archivo almacena la base de datos vectorial que contiene los embeddings de 
 ### 1. **Clonar el Repositorio**
 
 ```bash
-git clone https://github.com/lucioamarilla/agro_chat.git
+git clone git remote add origin https://github.com/lucioamarilla/agro_chat.git
 cd agro_chat 
 ```
 
@@ -71,8 +71,8 @@ pip install -r requirements.txt
 
 Crea un archivo .env en el directorio raíz con la siguiente información:
 
-THINGSPEAK_API_KEY=tu_api_key_thingspeak
-OPENWETHERMAP_API_KEY=tu_api_key_openweathermap
+GROQ_API_KEY=tu_api_key_groq.
+OPENWETHERMAP_API_KEY=tu_api_key_openweathermap.
 
 ### 5.Ejecutar la API
 
