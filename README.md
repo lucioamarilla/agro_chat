@@ -71,8 +71,8 @@ pip install -r requirements.txt
 
 Crea un archivo .env en el directorio raíz con la siguiente información:
 
-GROQ_API_KEY=tu_api_key_groq.
-OPENWETHERMAP_API_KEY=tu_api_key_openweathermap.
+   - GROQ_API_KEY=tu_api_key_groq.
+   - OPENWETHERMAP_API_KEY=tu_api_key_openweathermap.
 
 ### 5.Ejecutar la API
 
