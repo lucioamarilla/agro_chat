@@ -82,7 +82,7 @@ Inicia el servidor FastAPI desde main.py:
 uvicorn main:app --reload
 ```
 
-### 5.Ejecutar la Interfaz Grafica
+### 6.Ejecutar la Interfaz Grafica
 
 Inicia la interfaz grafica de Streamlit desde app.py:
 
