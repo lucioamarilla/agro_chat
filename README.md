@@ -13,7 +13,7 @@ Este archivo contiene la **API** desarrollada con **FastAPI**, que actúa como i
 Contiene la lógica principal del asistente, incluyendo:
    - Clasificación de preguntas.
    - Integración con la base de datos vectorial.
-   - Comunicación con ThingSpeak para obtener datos en tiempo real.
+   - Comunicación con ThingSpeak y OpenWeatherMap para obtener datos en tiempo real.
 
 ### 3. **`agro_dbv`**
 Este archivo almacena la base de datos vectorial que contiene los embeddings de la información sobre sistemas de cultivo.
@@ -71,8 +71,8 @@ pip install -r requirements.txt
 
 Crea un archivo .env en el directorio raíz con la siguiente información:
 
-   - GROQ_API_KEY=tu_api_key_groq.
-   - OPENWETHERMAP_API_KEY=tu_api_key_openweathermap.
+   - GROQ_API_KEY=tu_api_key_groq
+   - OPENWETHERMAP_API_KEY=tu_api_key_openweathermap
 
 ### 5.Ejecutar la API
 
@@ -82,7 +82,7 @@ Inicia el servidor FastAPI desde main.py:
 uvicorn main:app --reload
 ```
 
-### 5.Ejecutar la API
+### 5.Ejecutar la Interfaz Grafica
 
 Inicia la interfaz grafica de Streamlit desde app.py:
 
